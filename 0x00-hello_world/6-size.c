@@ -11,6 +11,7 @@ int main(void)
 	long int longerOne;
 	long long int theLongest;
 	float decimal;
+
 	printf("Size of a char: %ld byte(s)\n", sizeof(character));
 	printf("Size of an int: %ld byte(s)\n", sizeof(integer));
 	printf("Size of a long int: %ld byte(s)\n", sizeof(longerOne));
