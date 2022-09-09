@@ -18,4 +18,4 @@ if (ch != 'q' && ch != 'e')
 }
 putchar('\n');
 result(0);
-}
+
