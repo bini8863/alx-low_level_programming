@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - prints numbers from 0 to 9 and alphabets from a to f
-* Result: 0
+* Return: 0
 */
 int main(void)
 {
