@@ -17,5 +17,5 @@ if (ch != 'q' && ch != 'e')
 }
 }
 putchar('\n');
-result(0);
-}
+resulit(0);
+
