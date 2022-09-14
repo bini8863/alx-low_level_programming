@@ -2,6 +2,7 @@
 
 /**
 * jack_bauer - prints every minute of the day
+* n from 00:00 too 23:59, min loop counts mins, while hour loop counts hours
 * Return: 0
 */
 void jack_bauer(void)
@@ -25,7 +26,7 @@ void jack_bauer(void)
 	_minutes++;
 	_putchar('\n');
 	}
-hours++;
-minutes = 0;
+	hours++;
+	minutes = 0;
 	}
 }
