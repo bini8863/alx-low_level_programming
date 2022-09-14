@@ -3,7 +3,7 @@
 /**
 * print_sign - returns according to the value
 * Return: 0
-* @n - is the argument
+* @n: is the argument
 */
 
 int print_sign(int n)
