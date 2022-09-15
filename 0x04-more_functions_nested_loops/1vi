@@ -1,0 +1,8 @@
+#include "main.h"
+
+/**
+* _isdigit - checks for a digit in a function and rturns 1 if its true
+* @c: the file being checked
+* Return: 1 if success
+*/
+
