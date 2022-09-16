@@ -2,8 +2,8 @@
 
 /**
 * print_line - prints lines
-* @n: the int which represents the lines
-* Return: nosing
+* @n: number of times the line excutes
+* Return: nothing
 */
 
 void print_line(int n)
