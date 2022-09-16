@@ -6,14 +6,14 @@
 
 void more_numbers(void)
 {
-	int n,i;
-	for (i = 0; i < 10; i++)
-	{
-	for (n = 48; n < 62; n++_)
-	{
-		putchar(n);
-	}
-	i++;
-	putchar(10);
-	}
+int n, i;
+for (i = 0; i < 10; i++)
+{
+for (n = 48; n < 62; n++)
+{
+	putchar(n);
+}
+i++;
+putchar(10);
+}
 }
