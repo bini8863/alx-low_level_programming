@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
-* @inc: serves as argument
 * _strcpy - copies and paste string
 * @dest: returns destination
 * @src: source
