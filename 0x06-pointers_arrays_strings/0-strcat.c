@@ -1,20 +1,16 @@
 #include "main.h"
 
 /**
-* _strcat - concatinates two strings
-* @dest: where it will be appended
-* @src: the file being appended
-* Return: the pointer to @dest
+* _strcat - a function that concatinates two strings
+* @dest: the file where we append on
+* @src: the fule we append on dest
+* Return: 0
 */
 
 char *_strcat(char *dest, char *src)
 {
-	int index = 0, dest_len = 0;
-
-	while (dest[index++])
-		dest_len++;
-	for (index = 0; src[index]; index++)
-		dest[dest_len++] = src[index];
-
-	return (dest);
+	char dest[98] = "Hello";
+	char src[] = "World!\n";
+strcat(dest, src);
+return (dest);
 }
