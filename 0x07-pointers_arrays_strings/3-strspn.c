@@ -9,30 +9,19 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	size_t initial_length = 0;
-	size_t s1 = strlen(s);
-	size_t accept_1 = strlen(accept);
+	unsigned int i, j;
 
-	for (size_t i = 0; i < s1; i++)
+	for (i = 0; s[i]; i++)
 	{
-		bool found_match = false;
-
-		for (size_t j = 0; j < accept_1; j++)
+		for (j = 0; accept[j]; j++)
 		{
 			if (s[i] == accept[j])
-			{
-			found_match = true;
-			break;
-			}
-		}
-		if (!found_match)
-		{
 			break;
 		}
-		else
-			initial_length++;
+		if (!accept[j])
+			break;
 	}
-	return (initial_length);
+	return (i);
 
 }
 
