@@ -1,13 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
 * main - prints the name of the excutable
-* @argc: argument count
-* @argv: number of argument
 * Return: 0
 */
-int main(int argc, char **argv)
+int main(void)
 {
-	printf("%s\n", argv[0]);
-	(void)argc;
+	printf("%s\n", __FILE__);
 	return (0);
 }
