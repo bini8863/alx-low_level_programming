@@ -1,6 +1,5 @@
-#include "dog.h"
 #include <stdlib.h>
-
+#include "dog.h"
 /**
 * new_dog - crates a new dog
 * @name: first parameter
@@ -33,7 +32,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(n_dog->name);
 		return (NULL);
 	}
-	n_dog->owner = malloc(lenO + 1)
+	n_dog->owner = malloc(lenO + 1);
 	if (n_dog->owner == NULL)
 	{
 		free(n_dog->owner);
