@@ -1,3 +1,4 @@
+#include "pointer_functions.h"
 /**
 * print_name - prints name.
 * @name: pointer to name.
